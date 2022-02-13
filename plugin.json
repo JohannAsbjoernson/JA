@@ -1,0 +1,260 @@
+{
+    "slug": "JA",
+    "name": "JA",
+    "version": "2.0.0",
+    "license": "GPL-3.0-or-later",
+    "brand": "JA",
+    "author": "Johann Asbjoernson",
+    "authorEmail": "johann@raisedasapackofwolves.de",
+    "pluginUrl": "https://vcvrack.com/",
+    "authorUrl": "https://vcvrack.com/",
+    "manualUrl": "https://vcvrack.com/",
+    "sourceUrl": "https://github.com/VCVRack/Fundamental",
+    "changelogUrl": "https://github.com/VCVRack/Fundamental/blob/v1/CHANGELOG.md",
+    "modules": [
+        {
+            "slug": "Counter",
+            "name": "Counter",
+            "description": "Counter (x2) - counts up to target value using clock in.",
+            "manualUrl": "https://vcvrack.com/",
+            "tags": [
+                "Utility",
+                "Clock modulator"
+            ]
+        },
+        {
+            "slug": "Veins",
+            "name": "Veins: Branches / Bernoulli Gate",
+            "description": "A clone of Audible Instruments Bernoulli Gate. Flips a coin with weighed probability.",
+            "manualUrl": "https://vcvrack.com/",
+            "tags": [
+                "Utility",
+                "Random",
+                "Polyphonic"
+            ]
+        },
+        {
+            "slug": "Compare",
+            "name": "Comparator (x2)",
+            "description": "Comparator (x2) - Compare an incoming Signal against a Voltage. With Gate and CV Outputs.",
+            "manualUrl": "https://vcvrack.com/",
+            "tags": [
+                "Utility",
+                "Logic",
+                "Polyphonic"
+            ]
+        },
+        {
+            "slug": "Debug",
+            "name": "Debug (light)",
+            "description": "Slim, slightly altered clone of Computerscare's Debug. S&H, Random Voltage Generator, Volt-Meter.",
+            "manualUrl": "https://vcvrack.com/",
+            "tags": [
+                "Utility",
+                "Random",
+                "Sample and hold",
+                "Visual",
+                "Polyphonic"
+            ]
+        },
+        {
+            "slug": "PolyTools",
+            "name": "PolyTools: A Poly Tool Shed",
+            "description": "Merge Poly Signals / Clone Mono to Poly (offset, spread) / Poly to Poly Left & Poly Right / Sum Poly to Mono (w. gain) / Redact Channels from Poly Cable",
+            "manualUrl": "https://vcvrack.com/",
+            "tags": [
+                "Utility",
+                "Mixer",
+                "Multiple",
+                "Attenuator",
+                "Panning",
+                "Polyphonic"
+            ]
+        },
+        {
+            "slug": "PolySwitch",
+            "name": "PolySwitch: Polyphonic Gated Switch",
+            "description": "Switch: 2:1 | 2:1 | 1:2 | 1:2",
+            "manualUrl": "https://vcvrack.com/",
+            "tags": [
+                "Utility",
+                "Switch",
+                "Polyphonic"
+            ]
+        },
+        {
+            "slug": "PolyMorph",
+            "name": "PolyMorph: Polyphonic Morphing / Crossfading Tool",
+            "description": "Morphs between Channels of a Poly Signal (top & bottom) or between 2 Mono-/Poly Signals (middle). Audio: x0.3 gain, -5|+5 & Volt: -10|+10.",
+            "manualUrl": "https://vcvrack.com/",
+            "tags": [
+                "Utility",
+                "Mixer",
+                "Polyphonic"
+            ]
+        },
+        {
+            "slug": "N1",
+            "name": "N1 - Poly to Mono Sequencer / 16:1 Sequential Switch",
+            "description": "4 independent Sequencers or Switches (normaled). Switches between all inoming Channels. Playmodes: Forw./Backw./Random. Poly Output of all Sequencers on bottom.",
+            "manualUrl": "https://vcvrack.com/",
+            "tags": [
+                "Utility",
+                "Sequencer",
+                "Switch",
+                "Polyphonic"
+            ]
+        },
+        {
+            "slug": "Seq16",
+            "name": "Seq16: 16 Step Trigger/Gate Sequencer and Switch",
+            "description": "Active Steps output triggers (trg out), adjacent steps are combined to gates (gt out). Modes: Forw/Backw/Random. 'CV' takes a poly signal & sends (active step = channel) to 'out' if step is active & channel present. Modes: S&H (samples incoming signal) & Switch (passes original signal). Reset input, End of Cycle output, Sequence Length dial.",
+            "manualUrl": "https://vcvrack.com/",
+            "tags": [
+                "Sequencer",
+                "Switch",
+                "Polyphonic"
+            ]
+        },
+        {
+            "slug": "Divider",
+            "name": "Divider: Clock Div Sequencer",
+            "description": "4 Clock dividers (/1 to /32 | on/off), global probability, CLK/OR/XOR out, 'all on/off' buttons, CV in (ch 1-4) to on/off (div 1-4) [CV is experimental for now]. Inspired by the Trigger Riot.",
+            "manualUrl": "",
+            "tags": [
+                "Clock modulator",
+                "Sequencer"
+            ]
+        },
+        {
+            "slug": "CRG",
+            "name": "CRG: Clocked Random Gates clone",
+            "description": "A slim clone of Count Modulas CRG. Channel knob (for 1-16 channels). Probability knobs for ch. 1-8. Modes: Multi/Solo. Gates, Trigger, Clock outputs.",
+            "manualUrl": "https://vcvrack.com/",
+            "tags": [
+                "Random",
+                "Sequencer",
+                "Polyphonic"
+            ]
+        },
+        {
+            "slug": "Flamm",
+            "name": "Flamm: Burst Generator clone",
+            "description": "A slightly modified clone of Count Modulas Burst Generator. Internal Clk (Rate, Modes: Slow / Fast), # of Pulses, Probability, Re-trig on/off button, start & end of cycle trig, duration of cycle gate, manual trigger button.",
+            "manualUrl": "https://vcvrack.com/",
+            "tags": [
+                "Random",
+                "Clock modulator",
+                "Sequencer"
+            ]
+        },
+        {
+            "slug": "VoltageBank",
+            "name": "Voltage Bank: Occult S&H & CV Storage with modulation capabilities",
+            "description": "Derived from unless modules 'towers'. Two polyphonic Copymachines. After copying a Signal, a new Signal can be input and modulate the Storage via Trimpot and/or CV input. Trigger in is polyphonic and can do targeted overwrite of storage. Interesting Glitch effects can be achieved when copying bi-polar signals while in unipolar mode.",
+            "manualUrl": "https://vcvrack.com/",
+            "tags": [
+                "Utility",
+                "Sample and hold",
+                "Polyphonic"
+            ]
+        },
+        {
+            "slug": "VoltageBank2",
+            "name": "Voltage Bank 2: Occult S&H & CV Storage with modulation and sequencing capabilities",
+            "description": "A row of unless modules 'towers' & an N1 Sequencer/Switch. Can copy, store, modulate a poly in and sequence it as mono out.",
+            "manualUrl": "https://vcvrack.com/",
+            "tags": [
+                "Utility",
+                "Sample and hold",
+                "Sequencer",
+                "Switch",
+                "Polyphonic"
+            ]
+        },
+        {
+            "slug": "CV2P",
+            "name": "Mono to Poly Shift Register & Sequencer",
+            "description": "Shift Register taking a mono Signal and clk/trg in and converts it into a poly Signal. The stored Voltages can be sequenced (forwrd/backwrd/random/CV). Sequencer outputs a mono Signal again. Useful to make a sequence polyphonic, remix a static sequence, as utility for Voltage Bank 2, Seq16, Morph etc..",
+            "manualUrl": "https://vcvrack.com/",
+            "tags": [
+                "Utility",
+                "Sample and hold",
+                "Logic",
+                "Sequencer",
+                "Switch"
+            ]
+        },
+        {
+            "slug": "Drone",
+            "name": "Drone: 8 voice v/Oct Cloud w. Drift",
+            "description": "Drift (strength & speed), Basenote (oct & semi), # of Voices, -8|+8 Voice offsets in semitones (for each voice), v/Oct input (CV in, overwrites Basenote settings). Outputs a polyphonic pitch Signal. Great for generating droning Clouds, unison, detune, humming Choirs.",
+            "manualUrl": "https://vcvrack.com/",
+            "tags": [
+                "Tuner",
+                "Chorus",
+                "Utility",
+                "Polyphonic"
+            ]
+        },
+        {
+            "slug": "PolyRND",
+            "name": "Noise: Dust generator with Rate, Filter, Amplitude and Random Trigger out",
+            "description": "Noise/Dust generator. External Clock in, internal CLK w. Rate knob, Amp/Gain setting, Low-Pass-Filter with Cutoff, Random Trigger out, Noise out. Best used with heavy modulation & the internal clock.",
+            "manualUrl": "https://vcvrack.com/",
+            "tags": [
+                "Noise",
+                "Random"
+            ]
+        },
+        {
+            "slug": "Merge8",
+            "name": "Merge 8: 8 mono inputs, 1 poly output",
+            "description": "8:1 Merge. Right-click menu to set # of output channels (default: automatic).",
+            "manualUrl": "https://vcvrack.com/",
+            "tags": [
+                "Utility",
+                "Polyphonic"
+            ]
+        },
+        {
+            "slug": "Merge16",
+            "name": "Merge 16: 16 mono inputs, 1 poly output",
+            "description": "16:1 Merge. Right-click menu to set # of output channels (default: automatic).",
+            "manualUrl": "https://vcvrack.com/",
+            "tags": [
+                "Utility",
+                "Polyphonic"
+            ]
+        },
+        {
+            "slug": "Split16",
+            "name": "Split 16: 1 poly input, 16 mono outputs",
+            "description": "1:16 Split. LEDs show active outputs.",
+            "manualUrl": "https://vcvrack.com/",
+            "tags": [
+                "Utility",
+                "Polyphonic"
+            ]
+        },
+        {
+            "slug": "Split8",
+            "name": "Split 8: 1 poly input, 8 mono outputs",
+            "description": "1:8 Split. LEDs show active outputs.",
+            "manualUrl": "https://vcvrack.com/",
+            "tags": [
+                "Utility",
+                "Polyphonic"
+            ]
+        },
+        {
+            "slug": "Blank2hp",
+            "name": "2 HP Blank Panel",
+            "description": "2 HP Blank Panel",
+            "manualUrl": "https://vcvrack.com/",
+            "tags": [
+                "Blank"
+            ]
+        }
+    ]
+}
