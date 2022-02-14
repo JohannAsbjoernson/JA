@@ -76,7 +76,7 @@ use the bottom part of CVBANK to store a backup of your storage.
 or simply use 8FACE (map CVBANK, long-press second preset knob on 8FACE to deactivate all others, save CVBANK in preset 1 & 2. send any trigger to 8FACE to restore storage)
 when working with generative sequencing, CVBANK or rather SHSEQ (CVBANK + N1) is perfect to generate an evolving sequence with repetitive elements using random inputs, alternating CV modulation signals and overwrite single values with probability.* 
 
-xxxxxxxxxxxx
+
 **SHSEQ**
 
  - 2HP, CVBANK paired with N1, polyphonic
