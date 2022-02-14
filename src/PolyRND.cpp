@@ -1,5 +1,5 @@
 #include "plugin.hpp"
-#include "inc/Filter6PButter.h"
+#include "Filter6PButter.h"
 
 struct PolyRND : Module
 {
