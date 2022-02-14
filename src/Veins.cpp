@@ -158,7 +158,7 @@ struct VeinsWidget : ModuleWidget
 	VeinsWidget(Veins *module)
 	{
 		setModule(module);
-		setPanel(APP->window->loadSvg(asset::plugin(pluginInstance, "res/panels/Panel2HPBER.svg")));
+		setPanel(APP->window->loadSvg(asset::plugin(pluginInstance, "res/panels/Panel2hpBER.svg")));
 
 		addParam(createParamCentered<SmallBtBER2>(mm2px(Vec(5.08, 7.5 * 1)), module, Veins::MODE1_PARAM));
 		addParam(createParamCentered<TrimpotW>(mm2px(Vec(5.08, 7.5 * 2)), module, Veins::THRESHOLD1_PARAM));
