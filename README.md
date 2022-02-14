@@ -77,7 +77,7 @@ or simply use 8FACE (map CVBANK, long-press second preset knob on 8FACE to deact
 when working with generative sequencing, CVBANK or rather SHSEQ (CVBANK + N1) is perfect to generate an evolving sequence with repetitive elements using random inputs, alternating CV modulation signals and overwrite single values with probability.* 
 
 
-**SHSEQ**
+**SHSEQ / Voltage Bank2 / CVBank 2**
 
  - 2HP, CVBANK paired with N1, polyphonic
  - CVBANK [TOP] see CVBANK manual entry;
